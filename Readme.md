@@ -16,14 +16,11 @@ The code requires the following packages to be installed:
 - graphviz
 
 If you don’t have all or part of them installed, you may consider run one of the following commands:
-
-<aside>
-💡 It is always recommended to try out code in a virtual environment. So you may start with a fresh virtual-env or activate a pre-existing one, if you want.
-
-</aside>
-
- 
-
+<br/>    
+<br/>
+💡 It is always recommended to try out code in a virtual environment. So you may start with a fresh virtual-env or activate a pre-existing one, if you want. Then run one of the following commands 👇
+<br/>    
+<br/>
 1-  `pip`
 
 ```bash

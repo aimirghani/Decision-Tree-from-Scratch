@@ -2,92 +2,87 @@ digraph "Decision Tree" {
 	node [shape=box]
 	"feature=\"worst concave points\", threshold=0.1416" -> "feature=\"worst area\", threshold=947.9"
 	node [shape=box]
-	"feature=\"worst concave points\", threshold=0.1416" -> "feature=\"worst area\", threshold=675.2"
+	"feature=\"worst concave points\", threshold=0.1416" -> "feature=\"area error\", threshold=18.15"
 	node [shape=box]
-	"feature=\"worst area\", threshold=947.9" -> "feature=\"perimeter error\", threshold=5.118"
+	"feature=\"worst area\", threshold=947.9" -> "feature=\"symmetry error\", threshold=0.007882"
 	node [shape=box]
-	"feature=\"worst area\", threshold=947.9" -> "feature=\"perimeter error\", threshold=2.344"
+	"feature=\"worst area\", threshold=947.9" -> "feature=\"concavity error\", threshold=0.01153"
 	node [shape=box]
-	"feature=\"perimeter error\", threshold=5.118" -> "feature=\"worst perimeter\", threshold=103.9"
+	"3fbe4550-59f9-40d0-8aa0-72375a018f3a" [label=<leaf_value=0>]
+	"feature=\"symmetry error\", threshold=0.007882" -> "3fbe4550-59f9-40d0-8aa0-72375a018f3a"
 	node [shape=box]
-	"af827598-580a-4b51-8f30-1ff09013a850" [label=<leaf_value=0>]
-	"feature=\"perimeter error\", threshold=5.118" -> "af827598-580a-4b51-8f30-1ff09013a850"
+	"feature=\"symmetry error\", threshold=0.007882" -> "feature=\"worst perimeter\", threshold=103.9"
 	node [shape=box]
 	"feature=\"worst perimeter\", threshold=103.9" -> "feature=\"worst texture\", threshold=33.17"
 	node [shape=box]
 	"feature=\"worst perimeter\", threshold=103.9" -> "feature=\"worst smoothness\", threshold=0.134"
 	node [shape=box]
-	"424bd1b1-28b6-49b9-8845-8cc70e94f923" [label=<leaf_value=1>]
-	"feature=\"worst texture\", threshold=33.17" -> "424bd1b1-28b6-49b9-8845-8cc70e94f923"
+	"f9c183ba-e48e-42d2-b4a8-7d53c494611b" [label=<leaf_value=1>]
+	"feature=\"worst texture\", threshold=33.17" -> "f9c183ba-e48e-42d2-b4a8-7d53c494611b"
 	node [shape=box]
-	"feature=\"worst texture\", threshold=33.17" -> "feature=\"symmetry error\", threshold=0.01647"
+	"feature=\"worst texture\", threshold=33.17" -> "feature=\"worst area\", threshold=653.6"
 	node [shape=box]
-	"3c82fe27-f362-4aca-b432-e9ffe9eab958" [label=<leaf_value=0>]
-	"feature=\"symmetry error\", threshold=0.01647" -> "3c82fe27-f362-4aca-b432-e9ffe9eab958"
+	"bf740053-a9aa-4c4b-90ba-5d74992cbf5e" [label=<leaf_value=0>]
+	"feature=\"worst area\", threshold=653.6" -> "bf740053-a9aa-4c4b-90ba-5d74992cbf5e"
 	node [shape=box]
-	"a8ab2795-7ad9-4d48-af07-2578eb32a1eb" [label=<leaf_value=1>]
-	"feature=\"symmetry error\", threshold=0.01647" -> "a8ab2795-7ad9-4d48-af07-2578eb32a1eb"
+	"40c512ae-399e-42a9-a304-954ba0c02cf6" [label=<leaf_value=1>]
+	"feature=\"worst area\", threshold=653.6" -> "40c512ae-399e-42a9-a304-954ba0c02cf6"
 	node [shape=box]
 	"feature=\"worst smoothness\", threshold=0.134" -> "feature=\"concave points error\", threshold=0.01623"
 	node [shape=box]
-	"797e09a8-59c3-4f14-976b-4be13296175e" [label=<leaf_value=0>]
-	"feature=\"worst smoothness\", threshold=0.134" -> "797e09a8-59c3-4f14-976b-4be13296175e"
+	"da87e929-0b7d-4b86-ab24-8afd4501280b" [label=<leaf_value=0>]
+	"feature=\"worst smoothness\", threshold=0.134" -> "da87e929-0b7d-4b86-ab24-8afd4501280b"
 	node [shape=box]
-	"e302cf77-7239-4ae9-9f9f-93b2b9d64eaa" [label=<leaf_value=1>]
-	"feature=\"concave points error\", threshold=0.01623" -> "e302cf77-7239-4ae9-9f9f-93b2b9d64eaa"
+	"e69ea177-4760-4b68-8a3c-9f98c2bf6432" [label=<leaf_value=1>]
+	"feature=\"concave points error\", threshold=0.01623" -> "e69ea177-4760-4b68-8a3c-9f98c2bf6432"
 	node [shape=box]
-	"63396ac7-d683-49a8-9f58-dd71091efdd0" [label=<leaf_value=0>]
-	"feature=\"concave points error\", threshold=0.01623" -> "63396ac7-d683-49a8-9f58-dd71091efdd0"
+	"91e0be41-9e2d-4c65-bf8a-b664f14344a3" [label=<leaf_value=0>]
+	"feature=\"concave points error\", threshold=0.01623" -> "91e0be41-9e2d-4c65-bf8a-b664f14344a3"
 	node [shape=box]
-	"c71406d8-78b1-4e48-8c7f-08c3179b773d" [label=<leaf_value=1>]
-	"feature=\"perimeter error\", threshold=2.344" -> "c71406d8-78b1-4e48-8c7f-08c3179b773d"
+	"c482f12a-2058-45c5-9362-c4448c7aca36" [label=<leaf_value=1>]
+	"feature=\"concavity error\", threshold=0.01153" -> "c482f12a-2058-45c5-9362-c4448c7aca36"
 	node [shape=box]
-	"feature=\"perimeter error\", threshold=2.344" -> "feature=\"symmetry error\", threshold=0.01302"
+	"feature=\"concavity error\", threshold=0.01153" -> "feature=\"area error\", threshold=33.58"
 	node [shape=box]
-	"1f551be5-24e5-4cdd-acd3-f30ffc225420" [label=<leaf_value=1>]
-	"feature=\"symmetry error\", threshold=0.01302" -> "1f551be5-24e5-4cdd-acd3-f30ffc225420"
+	"46ef580c-2db0-4f33-aae1-feec4bbfb16c" [label=<leaf_value=1>]
+	"feature=\"area error\", threshold=33.58" -> "46ef580c-2db0-4f33-aae1-feec4bbfb16c"
 	node [shape=box]
-	"feature=\"symmetry error\", threshold=0.01302" -> "feature=\"worst area\", threshold=1032.0"
+	"feature=\"area error\", threshold=33.58" -> "feature=\"worst fractal dimension\", threshold=0.05972"
 	node [shape=box]
-	"f0c7e840-bcc8-42e7-ba3b-9e31c9d209ba" [label=<leaf_value=1>]
-	"feature=\"worst area\", threshold=1032.0" -> "f0c7e840-bcc8-42e7-ba3b-9e31c9d209ba"
+	"9eec6c9d-0e57-423d-8233-771d92fb643f" [label=<leaf_value=1>]
+	"feature=\"worst fractal dimension\", threshold=0.05972" -> "9eec6c9d-0e57-423d-8233-771d92fb643f"
 	node [shape=box]
-	"2e998c16-83ef-4ab0-9380-4e34ad5deea3" [label=<leaf_value=0>]
-	"feature=\"worst area\", threshold=1032.0" -> "2e998c16-83ef-4ab0-9380-4e34ad5deea3"
+	"e1ba9916-2601-424a-9d6d-65ede45d7d30" [label=<leaf_value=0>]
+	"feature=\"worst fractal dimension\", threshold=0.05972" -> "e1ba9916-2601-424a-9d6d-65ede45d7d30"
 	node [shape=box]
-	"feature=\"worst area\", threshold=675.2" -> "feature=\"concavity error\", threshold=0.02595"
+	"feature=\"area error\", threshold=18.15" -> "feature=\"worst concavity\", threshold=0.3728"
 	node [shape=box]
-	"feature=\"worst area\", threshold=675.2" -> "feature=\"mean concavity\", threshold=0.0594"
+	"feature=\"area error\", threshold=18.15" -> "feature=\"worst radius\", threshold=14.8"
 	node [shape=box]
-	"cec77950-12ea-4cc9-8335-b6041fdb2d38" [label=<leaf_value=0>]
-	"feature=\"concavity error\", threshold=0.02595" -> "cec77950-12ea-4cc9-8335-b6041fdb2d38"
+	"73b8cc1d-ac56-4b01-a750-5928b20f3277" [label=<leaf_value=0>]
+	"feature=\"worst concavity\", threshold=0.3728" -> "73b8cc1d-ac56-4b01-a750-5928b20f3277"
 	node [shape=box]
-	"feature=\"concavity error\", threshold=0.02595" -> "feature=\"concave points error\", threshold=0.01339"
+	"feature=\"worst concavity\", threshold=0.3728" -> "feature=\"mean smoothness\", threshold=0.1216"
 	node [shape=box]
-	"eeb9ccfc-bde8-4fba-b6fe-da760c84b3e5" [label=<leaf_value=0>]
-	"feature=\"concave points error\", threshold=0.01339" -> "eeb9ccfc-bde8-4fba-b6fe-da760c84b3e5"
+	"41fbe95c-d990-47ba-a335-089488f5a03f" [label=<leaf_value=0>]
+	"feature=\"mean smoothness\", threshold=0.1216" -> "41fbe95c-d990-47ba-a335-089488f5a03f"
 	node [shape=box]
-	"feature=\"concave points error\", threshold=0.01339" -> "feature=\"worst fractal dimension\", threshold=0.173"
+	"feature=\"mean smoothness\", threshold=0.1216" -> "feature=\"worst compactness\", threshold=0.2698"
 	node [shape=box]
-	"919f40ba-ec0d-4dc0-948e-52727757c3e9" [label=<leaf_value=0>]
-	"feature=\"worst fractal dimension\", threshold=0.173" -> "919f40ba-ec0d-4dc0-948e-52727757c3e9"
+	"561059e1-501c-404e-8db9-805ae932b6b3" [label=<leaf_value=0>]
+	"feature=\"worst compactness\", threshold=0.2698" -> "561059e1-501c-404e-8db9-805ae932b6b3"
 	node [shape=box]
-	"58ee76b6-09f0-4597-ba06-3e786d45e85f" [label=<leaf_value=1>]
-	"feature=\"worst fractal dimension\", threshold=0.173" -> "58ee76b6-09f0-4597-ba06-3e786d45e85f"
+	"add8a419-3a93-40fc-ba24-1e38f5f2e65b" [label=<leaf_value=1>]
+	"feature=\"worst compactness\", threshold=0.2698" -> "add8a419-3a93-40fc-ba24-1e38f5f2e65b"
 	node [shape=box]
-	"feature=\"mean concavity\", threshold=0.0594" -> "feature=\"mean perimeter\", threshold=97.26"
+	"9c3ff864-ef29-48c3-beb7-e485ee31c1f7" [label=<leaf_value=1>]
+	"feature=\"worst radius\", threshold=14.8" -> "9c3ff864-ef29-48c3-beb7-e485ee31c1f7"
 	node [shape=box]
-	"feature=\"mean concavity\", threshold=0.0594" -> "feature=\"perimeter error\", threshold=1.143"
+	"feature=\"worst radius\", threshold=14.8" -> "feature=\"worst concavity\", threshold=0.1804"
 	node [shape=box]
-	"914de3ee-3cbe-46e8-9067-21abe8ffa717" [label=<leaf_value=0>]
-	"feature=\"mean perimeter\", threshold=97.26" -> "914de3ee-3cbe-46e8-9067-21abe8ffa717"
+	"ee138332-b26e-421d-832e-63b9f0bcd189" [label=<leaf_value=1>]
+	"feature=\"worst concavity\", threshold=0.1804" -> "ee138332-b26e-421d-832e-63b9f0bcd189"
 	node [shape=box]
-	"a0a0f4a5-628c-44db-8d04-95aaba13c787" [label=<leaf_value=1>]
-	"feature=\"mean perimeter\", threshold=97.26" -> "a0a0f4a5-628c-44db-8d04-95aaba13c787"
-	node [shape=box]
-	"37ea3819-43c5-44c5-af29-80de636685c7" [label=<leaf_value=1>]
-	"feature=\"perimeter error\", threshold=1.143" -> "37ea3819-43c5-44c5-af29-80de636685c7"
-	node [shape=box]
-	"395a7101-bc43-4036-8809-a1638f996200" [label=<leaf_value=0>]
-	"feature=\"perimeter error\", threshold=1.143" -> "395a7101-bc43-4036-8809-a1638f996200"
+	"0c75b7d0-6579-4e9c-a7fa-0ec4c9fad760" [label=<leaf_value=0>]
+	"feature=\"worst concavity\", threshold=0.1804" -> "0c75b7d0-6579-4e9c-a7fa-0ec4c9fad760"
 }

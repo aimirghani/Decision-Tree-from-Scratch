@@ -1,0 +1,78 @@
+digraph "Decision Tree" {
+	node [shape=box]
+	"9b5bdb47-ae2b-4ff3-bff6-a1ba1915cd79" [label="feature=\"worst concave points\", threshold=0.1416"]
+	"5fd54395-80ac-4c7c-9def-af11ff5420a8" [label="feature=\"worst area\", threshold=947.9"]
+	"9b5bdb47-ae2b-4ff3-bff6-a1ba1915cd79" -> "5fd54395-80ac-4c7c-9def-af11ff5420a8"
+	"f068b4d3-abe5-4274-a065-2edf1c4e51d3" [label="feature=\"worst area\", threshold=675.2"]
+	"9b5bdb47-ae2b-4ff3-bff6-a1ba1915cd79" -> "f068b4d3-abe5-4274-a065-2edf1c4e51d3"
+	"5fd54395-80ac-4c7c-9def-af11ff5420a8" [label="feature=\"worst area\", threshold=947.9"]
+	"c64d963f-fd24-4d94-ae97-5007ee499751" [label="feature=\"symmetry error\", threshold=0.007882"]
+	"5fd54395-80ac-4c7c-9def-af11ff5420a8" -> "c64d963f-fd24-4d94-ae97-5007ee499751"
+	"dca59558-c51d-443d-8d02-97283a5e99ab" [label="feature=\"worst concave points\", threshold=0.09123"]
+	"5fd54395-80ac-4c7c-9def-af11ff5420a8" -> "dca59558-c51d-443d-8d02-97283a5e99ab"
+	"c64d963f-fd24-4d94-ae97-5007ee499751" [label="feature=\"symmetry error\", threshold=0.007882"]
+	"71ac6d82-13de-4d25-8c6b-acdc7157ffa0" [label=<leaf_value=0>]
+	"c64d963f-fd24-4d94-ae97-5007ee499751" -> "71ac6d82-13de-4d25-8c6b-acdc7157ffa0"
+	"eef01582-bda4-4840-a133-a150f631af95" [label="feature=\"worst perimeter\", threshold=103.9"]
+	"c64d963f-fd24-4d94-ae97-5007ee499751" -> "eef01582-bda4-4840-a133-a150f631af95"
+	"eef01582-bda4-4840-a133-a150f631af95" [label="feature=\"worst perimeter\", threshold=103.9"]
+	"e89cfded-d1e8-4ea0-bc46-239acaf025b8" [label="feature=\"worst texture\", threshold=33.17"]
+	"eef01582-bda4-4840-a133-a150f631af95" -> "e89cfded-d1e8-4ea0-bc46-239acaf025b8"
+	"b2a0eab6-13d1-4540-9156-ca9d81a82337" [label="feature=\"worst smoothness\", threshold=0.134"]
+	"eef01582-bda4-4840-a133-a150f631af95" -> "b2a0eab6-13d1-4540-9156-ca9d81a82337"
+	"e89cfded-d1e8-4ea0-bc46-239acaf025b8" [label="feature=\"worst texture\", threshold=33.17"]
+	"3efc4bf3-e318-417d-a5b4-74e696d1e1de" [label=<leaf_value=1>]
+	"e89cfded-d1e8-4ea0-bc46-239acaf025b8" -> "3efc4bf3-e318-417d-a5b4-74e696d1e1de"
+	"47df41ec-57e0-4de5-83b9-182944187bcd" [label="feature=\"worst texture\", threshold=33.37"]
+	"e89cfded-d1e8-4ea0-bc46-239acaf025b8" -> "47df41ec-57e0-4de5-83b9-182944187bcd"
+	"47df41ec-57e0-4de5-83b9-182944187bcd" [label="feature=\"worst texture\", threshold=33.37"]
+	"4dd8a5e8-4a65-4f27-85e4-7942d7927fcb" [label=<leaf_value=0>]
+	"47df41ec-57e0-4de5-83b9-182944187bcd" -> "4dd8a5e8-4a65-4f27-85e4-7942d7927fcb"
+	"6e564859-0cd7-422f-a1c0-65c2b445ad33" [label=<leaf_value=1>]
+	"47df41ec-57e0-4de5-83b9-182944187bcd" -> "6e564859-0cd7-422f-a1c0-65c2b445ad33"
+	"b2a0eab6-13d1-4540-9156-ca9d81a82337" [label="feature=\"worst smoothness\", threshold=0.134"]
+	"05e2315e-9eb7-418a-9cab-2a72fe5cf7fa" [label="feature=\"concave points error\", threshold=0.01623"]
+	"b2a0eab6-13d1-4540-9156-ca9d81a82337" -> "05e2315e-9eb7-418a-9cab-2a72fe5cf7fa"
+	"a77bc386-92cc-475a-82b0-4e30ca6d5d06" [label=<leaf_value=0>]
+	"b2a0eab6-13d1-4540-9156-ca9d81a82337" -> "a77bc386-92cc-475a-82b0-4e30ca6d5d06"
+	"05e2315e-9eb7-418a-9cab-2a72fe5cf7fa" [label="feature=\"concave points error\", threshold=0.01623"]
+	"36787b01-6e1c-4086-abe9-a9699c975c90" [label=<leaf_value=1>]
+	"05e2315e-9eb7-418a-9cab-2a72fe5cf7fa" -> "36787b01-6e1c-4086-abe9-a9699c975c90"
+	"083eab94-8d5b-44c2-bf82-a05cc3c7f110" [label=<leaf_value=0>]
+	"05e2315e-9eb7-418a-9cab-2a72fe5cf7fa" -> "083eab94-8d5b-44c2-bf82-a05cc3c7f110"
+	"dca59558-c51d-443d-8d02-97283a5e99ab" [label="feature=\"worst concave points\", threshold=0.09123"]
+	"253157fe-68a5-4a5d-96f8-cddc87283472" [label="feature=\"worst fractal dimension\", threshold=0.06469"]
+	"dca59558-c51d-443d-8d02-97283a5e99ab" -> "253157fe-68a5-4a5d-96f8-cddc87283472"
+	"7e890093-3995-4736-b366-5aae2822ecf0" [label=<leaf_value=0>]
+	"dca59558-c51d-443d-8d02-97283a5e99ab" -> "7e890093-3995-4736-b366-5aae2822ecf0"
+	"253157fe-68a5-4a5d-96f8-cddc87283472" [label="feature=\"worst fractal dimension\", threshold=0.06469"]
+	"58045f1c-0b68-42c2-a5ec-d1529f205ac4" [label=<leaf_value=1>]
+	"253157fe-68a5-4a5d-96f8-cddc87283472" -> "58045f1c-0b68-42c2-a5ec-d1529f205ac4"
+	"2b6d1bac-f1f8-4b91-bcaf-f84349ed5d48" [label=<leaf_value=0>]
+	"253157fe-68a5-4a5d-96f8-cddc87283472" -> "2b6d1bac-f1f8-4b91-bcaf-f84349ed5d48"
+	"f068b4d3-abe5-4274-a065-2edf1c4e51d3" [label="feature=\"worst area\", threshold=675.2"]
+	"f0c28d45-a92e-494c-8c96-fc0f793efbb3" [label="feature=\"mean smoothness\", threshold=0.1078"]
+	"f068b4d3-abe5-4274-a065-2edf1c4e51d3" -> "f0c28d45-a92e-494c-8c96-fc0f793efbb3"
+	"49173cdc-db84-41c1-8b63-a9fd091c67f7" [label="feature=\"perimeter error\", threshold=1.443"]
+	"f068b4d3-abe5-4274-a065-2edf1c4e51d3" -> "49173cdc-db84-41c1-8b63-a9fd091c67f7"
+	"f0c28d45-a92e-494c-8c96-fc0f793efbb3" [label="feature=\"mean smoothness\", threshold=0.1078"]
+	"6fe0a3bc-3226-41db-b6e7-ec1033d215de" [label=<leaf_value=1>]
+	"f0c28d45-a92e-494c-8c96-fc0f793efbb3" -> "6fe0a3bc-3226-41db-b6e7-ec1033d215de"
+	"7c290c02-cdfb-4fba-824f-339e98c0f74c" [label=<leaf_value=0>]
+	"f0c28d45-a92e-494c-8c96-fc0f793efbb3" -> "7c290c02-cdfb-4fba-824f-339e98c0f74c"
+	"49173cdc-db84-41c1-8b63-a9fd091c67f7" [label="feature=\"perimeter error\", threshold=1.443"]
+	"16b78c28-872b-40a9-a2ea-65e6c2bb65f2" [label="feature=\"worst compactness\", threshold=0.3124"]
+	"49173cdc-db84-41c1-8b63-a9fd091c67f7" -> "16b78c28-872b-40a9-a2ea-65e6c2bb65f2"
+	"5da67bfd-dba9-4a3b-9e72-df737a1608ce" [label="feature=\"worst concavity\", threshold=0.1804"]
+	"49173cdc-db84-41c1-8b63-a9fd091c67f7" -> "5da67bfd-dba9-4a3b-9e72-df737a1608ce"
+	"16b78c28-872b-40a9-a2ea-65e6c2bb65f2" [label="feature=\"worst compactness\", threshold=0.3124"]
+	"ad0694bf-5949-4ba8-a37b-e8d364396553" [label=<leaf_value=1>]
+	"16b78c28-872b-40a9-a2ea-65e6c2bb65f2" -> "ad0694bf-5949-4ba8-a37b-e8d364396553"
+	"ed2b70b8-21c8-4fb9-a4f1-a3c6df600dcd" [label=<leaf_value=0>]
+	"16b78c28-872b-40a9-a2ea-65e6c2bb65f2" -> "ed2b70b8-21c8-4fb9-a4f1-a3c6df600dcd"
+	"5da67bfd-dba9-4a3b-9e72-df737a1608ce" [label="feature=\"worst concavity\", threshold=0.1804"]
+	"f576ef4f-38f9-48e5-89be-609039f03598" [label=<leaf_value=1>]
+	"5da67bfd-dba9-4a3b-9e72-df737a1608ce" -> "f576ef4f-38f9-48e5-89be-609039f03598"
+	"7a05fa09-d24c-4330-8e7f-977ef7abe6c8" [label=<leaf_value=0>]
+	"5da67bfd-dba9-4a3b-9e72-df737a1608ce" -> "7a05fa09-d24c-4330-8e7f-977ef7abe6c8"
+}

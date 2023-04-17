@@ -1,6 +1,7 @@
 # Decision Tree from Scratch
 
-![dt.png](imgs/dt.png)
+![cls.png](imgs/cls.png)
+![reg.png](imgs/reg.png)
 
 This repo contains code for Decision Tree classifier built from scratch, accompanied by a custom Decision-Tree visualizer class.
 

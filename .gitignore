@@ -1,7 +1,7 @@
 # Notebook Checkpoints
 .ipynb_checkpoints/
 reqs/
-
+__pycache__/
 
 Binary_Tree.ipynb
 DT from scratch Numpy.ipynb
